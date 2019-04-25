@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+
+  <view class='system_item' wx:for="{{parent}}" wx:key="{{index}}" data-index='{{index}}' bindtap='tagClick'>
+    <text class='title_text'>{{parent[index].name}}</text> 
+    <view  wx:for="{{item.children}}" wx:key="{{index}}" >
+      <button class='btn' style='background:{{colorArr[index%colorArr.length]}}'>
+        <text>{{item.name}}</text>
+      </button>
+    </view>
+  </view>
+
+

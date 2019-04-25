@@ -1,0 +1,22 @@
+<view class='mine_background'>
+  <image class='mine_avatar' src='../../images/login.png'></image>
+  <view class='login_btn' bindtap='login' wx:if="{{!loginBean}}">登录/注册</view>
+  <view>{{loginBean.username}}</view>
+  
+</view>
+<view class='mine_item_container'  wx:for="{{mine_items}}" wx:key="{{index}}">
+
+  <view class='mine_item' data-index='{{index}}' bindtap='itemClick'>
+    <image src='{{img_source[index]}}' style='height:40rpx;width:40rpx'></image>
+    <text class='mine_item_text'>{{item}}</text>
+    <image src='../../images/ic_arrow.png' style='height:50rpx;width:50rpx'> </image>
+  </view>
+  <view class='mine_line'></view>
+</view>
+
+<button class='btn_login' bindtap='loginOut' wx:if="{{loginBean}}">
+  <view>退出登录</view>
+</button>
+
+
+

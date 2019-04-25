@@ -1,0 +1,20 @@
+.system_item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+}
+.title_text{
+  font-size: 16px;
+  background: white;
+  color: black;
+  width: 100%;
+  padding: 10rpx;
+}
+
+.btn{
+  color: white;
+  font-size: 14px;
+  margin: 10rpx;
+}
+

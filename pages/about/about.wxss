@@ -1,0 +1,9 @@
+/* pages/about/about.wxss */
+.text_container{
+  margin: 10px;
+}
+.text{
+  color: #1296db;
+  font-size: 16px;
+  
+}

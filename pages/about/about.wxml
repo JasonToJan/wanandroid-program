@@ -1,0 +1,5 @@
+<!--pages/about/about.wxml-->
+<view class='text_container'>
+  <text class='text'>本小程序API由鸿洋大神wanandroid提供 (https://www.wanandroid.com/)</text>
+</view>
+

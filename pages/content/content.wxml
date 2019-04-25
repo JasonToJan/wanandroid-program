@@ -1,0 +1,42 @@
+<!--pages/content/content.wxml-->
+<!-- 横向指示器 -->
+<scroll-view scroll-x="true">
+  <view class='indictor_container'>
+    <block wx:for="{{systemList}}" wx:key="{{index}}">
+      <block wx:if="{{selected==index}}">
+        <text class='indictor_selected' bindtap='click' data-index='{{index}}'>{{item.name}}</text>
+      </block>
+      <block wx:else>
+        <text class='indictor_normal' bindtap='click' data-index='{{index}}'>{{item.name}}</text>
+      </block>
+
+    </block>
+  </view>
+</scroll-view>
+
+<view style='margin-bottom:10px'>
+  <view class='home-item-article' wx:for="{{articleList}}" wx:key="index" data-url='{{item.link}}' bindtap='onItemClick'>
+    <view class='home-article-item1'>
+      <image class='home-item-authorbg' src='../../images/avatar.png'></image>
+      <view class='home-item-author'>{{item.author}}</view>
+      <view class='home-item-date'>{{item.niceDate}}</view>
+    </view>
+
+    <rich-text class='home-item-title' nodes="{{item.title}}">{{item.title}}</rich-text>
+
+    <view class='home-article-item2'>
+      <view class='home-item-chapter'>{{item.chapterName}}</view>
+      <view class='home-item-space'></view>
+      <image class='home-item-collect' style='width:50rpx; height:50rpx'  
+      src='{{item.collect? "../../images/collected.png":"../../images/collect.png"}}'
+      catchtap='collect' data-id='{{item.id}}' data-zan='{{item.collect}}' data-index='{{index}}'></image>  
+    </view>
+  </view>
+</view>
+
+<view class="weui-loadmore" wx:if="{{isLoadingMore}}">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>
+ 
+

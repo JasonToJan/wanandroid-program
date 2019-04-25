@@ -1,0 +1,33 @@
+<!--pages/todo/todo.wxml-->
+<scroll-view scroll-x="true">
+  <view class='indictor_container'>
+    <block wx:for="{{typeList}}" wx:key="{{index}}">
+      <block wx:if="{{type==index}}">
+        <text class='indictor_selected' bindtap='click' data-index='{{index}}'>{{item}}</text>
+      </block>
+      <block wx:else>
+        <text class='indictor_normal' bindtap='click' data-index='{{index}}'>{{item}}</text>
+      </block>
+    </block>
+  </view>
+</scroll-view>
+
+<block wx:for="{{contentList}}" wx:key="{{index}}">
+  <view class='item_container'>
+    <text class='title'>{{item.title}}</text>
+    <text class='content'>{{item.content}}</text>
+    <text class='date'>{{item.dateStr}}</text>
+    <view class='bottom_container'>
+      <text class='edit' style='background:#1296db' bindtap='edit' data-index='{{index}}'>编辑</text>
+      <text class='edit' style='background:green' bindtap='finish' data-index='{{index}}'>完成</text>
+      <text class='edit' style='background:red' bindtap='delete' data-index='{{index}}'>删除</text>
+    </view> 
+  </view>
+  <view class='line'></view>
+</block>
+
+<view class="weui-loadmore" wx:if="{{isLoadingMore}}">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">正在加载</view>
+</view>
+ 
