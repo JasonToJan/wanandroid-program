@@ -1,4 +1,4 @@
-# wanandroidmini
+# wanandroid-mini-
 a mini program about android
 ## 前言
 自学了一下小程序，并根据鸿洋的wanandroid提供的api以及网上一些开源的wanandroid的android版本写了一个小程序版的wanandroid.
