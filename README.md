@@ -19,21 +19,30 @@ https://github.com/digtal/wanandroidmini
 ## 项目截图
 ![home.png](https://upload-images.jianshu.io/upload_images/5872156-39290498c6ff75bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 ![mine.png](https://upload-images.jianshu.io/upload_images/5872156-3a712c16d7c737c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![navigator.png](https://upload-images.jianshu.io/upload_images/5872156-175571d834d28c2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 ![search.png](https://upload-images.jianshu.io/upload_images/5872156-9cdd8838ad639e87.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![system.png](https://upload-images.jianshu.io/upload_images/5872156-0945006019e05144.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 ![systemlist.png](https://upload-images.jianshu.io/upload_images/5872156-8e79503b3b8e96a4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ![todo.png](https://upload-images.jianshu.io/upload_images/5872156-5655575635a8a57c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 ![addtodo.png](https://upload-images.jianshu.io/upload_images/5872156-563c14317f49c099.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+
 ![collect.png](https://upload-images.jianshu.io/upload_images/5872156-ea983103faa83c7a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 二维码体验(ps:web-view详情页不支持个人开发者打开,请下载代码切换到调试模式):
 
