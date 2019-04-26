@@ -4,7 +4,7 @@ a mini program about android
 自学了一下小程序，并根据鸿洋的wanandroid提供的api以及网上一些开源的wanandroid的android版本写了一个小程序版的wanandroid.
 
 ## 项目地址
-https://github.com/digtal/wanandroidmini
+https://github.com/digtal/wanandroid-program
 ## 主要功能
 - ### 首页 
 包含轮播图以及最新的文章列表
